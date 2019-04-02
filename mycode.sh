@@ -1,1 +1,4 @@
-abc
+#!/bin/bash
+
+echo "abc"
+
