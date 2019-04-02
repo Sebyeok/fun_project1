@@ -1,5 +1,6 @@
 #!/bin/bash
 
+declare -i i=0
 while [ 1 ]
 do
 	read -p "Enter a new word: " word
@@ -10,6 +11,8 @@ do
 		exit 0
 	else
 		array=(${array[*]} ${word})
+		let i++
+		echo Legnth: $i
 	fi
 done
 
