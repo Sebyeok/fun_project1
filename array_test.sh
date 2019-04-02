@@ -1,6 +1,5 @@
 #!/bin/bash
 
-declare -i i=0
 while [ 1 ]
 do
 	read -p "Enter a new word: " word
